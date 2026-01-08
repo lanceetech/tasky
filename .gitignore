@@ -5,41 +5,142 @@
 *.swp
 .DS_Store
 .atom/
-.build/
 .buildlog/
 .history
 .svn/
-.swiftpm/
-migrate_working_dir/
 
-# IntelliJ related
+# IntelliJ
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
+# Flutter
+.flutter-plugins
 .flutter-plugins-dependencies
+.packages
 .pub-cache/
 .pub/
 /build/
-/coverage/
+/ios/Flutter/App.framework
+/ios/Flutter/engine
+/ios/Flutter/flutter_assets
+/ios/Flutter/.last_build_id
+/ios/Runner/Assets.xcassets/AppIcon.appiconset/
+/ios/Runner/Base.lproj/LaunchScreen.storyboardc/
+/ios/Runner/Base.lproj/Main.storyboardc/
+/ios/Runner/GeneratedPluginRegistrant.*
+/ios/ServiceDefinitions.json
+/ios/build/
+/ios/DerivedData/
+/ios/Pods/
+/ios/Podfile.lock
+/ios/.symlinks/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app
+/ios/Flutter/info.plist
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/podhelper.rb
+/ios/Flutter/flutter_build_ios_framework.sh
+/ios/Flutter/pod_helper.rb
+/ios/Flutter/ephemeral/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app
+/ios/Flutter/info.plist
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/podhelper.rb
+/ios/Flutter/flutter_build_ios_framework.sh
+/ios/Flutter/pod_helper.rb
+/ios/Flutter/ephemeral/
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app
+/ios/Flutter/info.plist
+/ios/Flutter/flutter_export_environment.sh
+/ios/Flutter/podhelper.rb
+/ios/Flutter/flutter_build_ios_framework.sh
+/ios/Flutter/pod_helper.rb
+/ios/Flutter/ephemeral/
 
-# Symbolication related
-app.*.symbols
+# Android
+/android/key.properties
+/android/local.properties
+/android/app/src/main/assets/flutter_assets/
+/android/app/build/
+/android/build/
+/android/.gradle/
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
 
-# Obfuscation related
-app.*.map.json
+# Web
+/web/build/
+/web/dart_tool/
+/web/.dart_tool/
+/web/packages/
+/web/.packages
+/web/main.dart.js
+/web/main.dart.js.map
+/web/main.dart.bootstrap.js
+/web/main.dart.bootstrap.js.map
+/web/main.dart.js.deps
+/web/main.dart.js.precompiled.js
+/web/main.dart.js.precompiled.js.map
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Linux
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+/linux/flutter/generated_plugins.cmake
+/linux/build/
+/linux/.last_build_id
+
+# macOS
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/ephemeral
+/macos/Pods/
+/macos/Podfile.lock
+/macos/build/
+/macos/Runner/Assets.xcassets/AppIcon.appiconset/
+/macos/Runner/Base.lproj/MainMenu.xib
+/macos/Runner/Base.lproj/Main.storyboard
+/macos/Runner/Info.plist
+/macos/Runner/Main.storyboard
+/macos/Runner/GeneratedPluginRegistrant.swift
+/macos/Runner.xcodeproj/project.xcworkspace/
+/macos/Runner.xcworkspace/
+/macos/.symlinks/
+/macos/Flutter/Generated.xcconfig
+/macos/Flutter/app.flx
+/macos/Flutter/app
+/macos/Flutter/info.plist
+/macos/Flutter/flutter_export_environment.sh
+/macos/Flutter/podhelper.rb
+/macos/Flutter/flutter_build_macos_framework.sh
+/macos/Flutter/pod_helper.rb
+/macos/Flutter/ephemeral/
+
+# Windows
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+/windows/flutter/generated_plugins.cmake
+/windows/build/
+/windows/runner/Debug/
+/windows/runner/Release/
+/windows/runner/Profile/
+/windows/runner/GeneratedPluginRegistrant.cpp
+/windows/runner/flutter_window.cpp
+/windows/runner/flutter_window.h
+/windows/runner/main.cpp
+/windows/runner/resource.h
+/windows/runner/utils.cpp
+/windows/runner/utils.h
+/windows/runner/win32_window.cpp
+/windows/runner/win32_window.h
+/windows/.vs/
+/windows/CMakeLists.txt
+/windows/flutter/CMakeLists.txt
+/windows/runner/CMakeLists.txt
+/windows/flutter/generated_plugins.cmake
